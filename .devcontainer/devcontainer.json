@@ -3,13 +3,13 @@
 	"dockerComposeFile": ["./docker-compose.yml"],
 	"shutdownAction": "stopCompose",
 	"workspaceFolder": "/var/www/html",
-
+	"remoteUser": "vscode",
 	// Configure tool-specific properties.
 	"customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {			
 			"settings": { 
-				"php.validate.executablePath": "/usr/local/bin/php"
+				"php.validate.executablePath": "/usr/local/bin/php"				
 			},
 			
 			// Add the IDs of extensions you want installed when the container is created.

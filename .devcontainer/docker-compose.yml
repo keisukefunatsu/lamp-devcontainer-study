@@ -3,7 +3,7 @@ services:
   app:
     build:
       dockerfile: Dockerfile
-      context: .
+      context: .    
     restart: always
     volumes:
       - "../:/var/www/html/"

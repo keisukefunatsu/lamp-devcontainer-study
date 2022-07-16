@@ -11,3 +11,5 @@
 - Dockerのプラクティス
   - [あなたのDockerfileはベストプラクティスに従っていますか？(ベストプラクティスとチェックツール)](https://qiita.com/yoshii0110/items/0accb7f21fa1c375e0d7)
 
+- 大体ここを見ればOK
+  - [公式node用サンプル](https://github.com/microsoft/vscode-remote-try-node/)
