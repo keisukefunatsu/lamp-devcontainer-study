@@ -2,8 +2,8 @@ version: "3.7"
 services:
   app:
     build:
-      dockerfile: Dockerfile
-      context: .    
+      dockerfile: ./.devcontainer/Dockerfile
+      context: ../    
     restart: always
     volumes:
       - "../:/var/www/html/"
