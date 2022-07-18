@@ -19,7 +19,7 @@ services:
     volumes:
       # https://docs.docker.jp/docker-for-mac/osxfs-caching.html
       # https://hfuji.hatenablog.jp/entry/2019/06/01/102617 cachedでマウントすると高速化できる
-      - ".mysql-data:/var/lib/mysql:cached"
+      - "mysql-data:/var/lib/mysql:cached"
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
